@@ -1,0 +1,53 @@
+.base {
+    /* background-color: pink;; */
+
+}
+
+h1 {
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.header {
+    height: 5vw;
+    /* background-color: blueviolet; */
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.logo {
+    height: 5vw;
+    /* background-color: greenyellow; */
+    font-family: 'Ubuntu', sans-serif;
+    /* justify-content: space-around;  */
+    align-items: baseline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vw;
+    /* background-color: gold; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    text-align: end;
+
+}
+
+.main {
+    height: 45vw;
+    background-color: aquamarine;
+}
+
+.footer {
+    height: 5vw;
+    background-color: burlywood;
+    justify-content: end;
+    align-content: space-around;
+    font-size: 1.5em;
+    position: sticky;
+    text-align: end;
+}
